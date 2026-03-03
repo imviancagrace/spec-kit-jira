@@ -25,6 +25,8 @@ The workflow is:
 
 ## Installation
 
+### From the community catalog
+
 ```bash
 specify extension add jira
 ```
@@ -33,6 +35,14 @@ Or install from the repository directly:
 
 ```bash
 specify extension add jira --from https://github.com/imviancagrace/spec-kit-jira/archive/refs/tags/v1.0.0.zip
+```
+
+### From a local clone
+
+```bash
+git clone https://github.com/imviancagrace/spec-kit-jira.git
+cd /path/to/your-speckit-project
+specify extension add --dev /path/to/spec-kit-jira
 ```
 
 After installation, verify:
